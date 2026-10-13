@@ -2,7 +2,7 @@ import { IMPOSSIBLE, VersionInfo } from '@start9labs/start-sdk'
 import { sdk } from '../sdk'
 
 export const current = VersionInfo.of({
-  version: '1.1.0:15',
+  version: '1.1.0:16',
   releaseNotes: {
     en_US: `- Bitcoin must be at least 28.4:29, 29.4:16, 30.3:16 or 31.1:16, depending on its major version. Bitcoin Knots (pre-RDTS) 29.3:29 or later also works.
 - The network interface left behind by the StartOS 0.3.5 version of this package is removed and its port freed. A domain or .onion address you had added to it no longer reaches Umbrel Bitcoin UI; add one to the Web UI interface instead.`,
